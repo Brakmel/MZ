@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+main{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Selección{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carousel {
+    background-color: rgb(0, 0, 0);
+    width: 60%;
+    height: 390px;
+    overflow: auto;
+    padding: 30px;
+    position: relative;
+}
+.carousel__container{
+    width: 100%;
+    height: 355px;
+}
+.carousel__item {
+    border-radius: 20px;
+    overflow: hidden;
+    margin-right: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+.Contorno01{
+    background-color: rgb(255, 255, 255);
+    height: 310px;
+    width: 270px;
+}
+.Contorno02{
+    background-color: rgba(239, 231, 228, 0.49);
+    height: 310px;
+    width: 270px;
+}
+.Contorno03{
+    background-color: rgba(255, 255, 255, 0.604);
+    height: 310px;
+    width: 270px;
+}  
